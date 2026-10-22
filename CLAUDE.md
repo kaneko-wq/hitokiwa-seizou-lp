@@ -9,7 +9,7 @@ This is a landing page (LP) for "hitokiwa", a foreign worker recruitment service
 ## Tech Stack
 
 - **Frontend**: Static HTML/CSS/JavaScript (no frameworks)
-- **Backend**: Vercel Serverless Functions (Node.js 18.x)
+- **Backend**: Vercel Serverless Functions (Node.js 22.x、`package.json` の `engines.node` で固定)
 - **Email Service**: Resend API for contact form submissions
 - **Deployment**: Vercel
 - **No build process required** - pure static files
